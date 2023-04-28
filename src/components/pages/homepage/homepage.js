@@ -12,6 +12,7 @@ function Homepage(props) {
         if (onChange == true) {
             fetch("https://dummyjson.com/products")
                 .then(response => response.json())
+                
                 .then(data => { console.log('data', data); setProducts(data); setOnChangeGetUsers(!onChange) })
                 .catch(error => console.error(error));
         }
