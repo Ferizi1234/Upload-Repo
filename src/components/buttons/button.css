@@ -1,0 +1,9 @@
+.get_users_button {
+    margin: 10px 10px;
+    background-color: rgb(44, 207, 44);
+}
+
+.get_products_button {
+    margin: 10px 10px;
+    background-color: aqua;
+}

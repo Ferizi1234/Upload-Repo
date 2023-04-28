@@ -1,0 +1,18 @@
+.homepage_layout{
+text-align: center;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.all_users{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user_card{
+    margin: 10px 10px;
+    width: fit-content;
+    border: solid 1px black;
+}
